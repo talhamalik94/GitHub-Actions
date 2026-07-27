@@ -59,7 +59,7 @@ jobs:
           gitleaks detect --source . --report-path gitleaks-report.json --report-format json
 
 
-    test:
+  test:
         runs-on: self-hosted
     
         steps:
